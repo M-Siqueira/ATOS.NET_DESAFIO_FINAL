@@ -8,7 +8,15 @@ namespace artigosAntigos.Context
     {
         public DataContext(DbContextOptions options) : base(options) { }
 
-        protected override void OnModelBuilber(ModelBuilder modelBuilder)
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Data Source=localhost;initial Catalog=artigosAntigos;User ID=userAtos;password=12345;language=Portuguese;Trusted_Connection=True;");
+            optionsBuilder.UseLazyLoadingProxies();
+        }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             ModelBuilder modelBuilder1 = modelBuilder.ApplyConfigurationsFromAssembly();
             //lincando com as Maps 
