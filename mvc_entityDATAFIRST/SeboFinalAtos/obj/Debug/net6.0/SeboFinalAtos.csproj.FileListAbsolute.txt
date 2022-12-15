@@ -87,3 +87,4 @@ C:\Users\marce\source\repos\M-Siqueira\ATOS.NET_DESAFIO_FINAL\mvc_entityDATAFIRS
 C:\Users\marce\source\repos\M-Siqueira\ATOS.NET_DESAFIO_FINAL\mvc_entityDATAFIRST\SeboFinalAtos\obj\Debug\net6.0\SeboFinalAtos.pdb
 C:\Users\marce\source\repos\M-Siqueira\ATOS.NET_DESAFIO_FINAL\mvc_entityDATAFIRST\SeboFinalAtos\obj\Debug\net6.0\SeboFinalAtos.genruntimeconfig.cache
 C:\Users\marce\source\repos\M-Siqueira\ATOS.NET_DESAFIO_FINAL\mvc_entityDATAFIRST\SeboFinalAtos\obj\Debug\net6.0\ref\SeboFinalAtos.dll
+C:\Users\marce\source\repos\M-Siqueira\ATOS.NET_DESAFIO_FINAL\mvc_entityDATAFIRST\SeboFinalAtos\bin\Debug\net6.0\web.config

@@ -18,7 +18,17 @@ namespace SeboFinalAtos.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult CadastroItem()
+        {
+            return View();
+        }
+
+        public IActionResult CadastroCliente()
+        {
+            return View();
+        }
+
+        public IActionResult SobreNos()
         {
             return View();
         }

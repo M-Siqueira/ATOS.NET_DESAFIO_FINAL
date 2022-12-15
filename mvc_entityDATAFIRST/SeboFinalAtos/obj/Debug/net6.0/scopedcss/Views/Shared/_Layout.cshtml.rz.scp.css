@@ -2,6 +2,7 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-s1m1ffzpmg] {
+  
   white-space: normal;
   text-align: center;
   word-break: break-all;
@@ -40,6 +41,7 @@ button.accept-policy[b-s1m1ffzpmg] {
 }
 
 .footer[b-s1m1ffzpmg] {
+   
   position: absolute;
   bottom: 0;
   width: 100%;

@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\marce\source\repos\M-Siqueira\ATOS.NET_DESAFIO_FINAL\mvc_entityDATAFIRST\SeboFinalAtos
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/marce/source/repos/M-Siqueira/ATOS.NET_DESAFIO_FINAL/mvc_entityDATAFIRST/SeboFinalAtos/Views/Home/CadastroCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryb0NsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/source/repos/M-Siqueira/ATOS.NET_DESAFIO_FINAL/mvc_entityDATAFIRST/SeboFinalAtos/Views/Home/CadastroItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryb0l0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/marce/source/repos/M-Siqueira/ATOS.NET_DESAFIO_FINAL/mvc_entityDATAFIRST/SeboFinalAtos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marce/source/repos/M-Siqueira/ATOS.NET_DESAFIO_FINAL/mvc_entityDATAFIRST/SeboFinalAtos/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/marce/source/repos/M-Siqueira/ATOS.NET_DESAFIO_FINAL/mvc_entityDATAFIRST/SeboFinalAtos/Views/Home/SobreNos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZU5vcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/marce/source/repos/M-Siqueira/ATOS.NET_DESAFIO_FINAL/mvc_entityDATAFIRST/SeboFinalAtos/Views/Shared/Error.cshtml]
