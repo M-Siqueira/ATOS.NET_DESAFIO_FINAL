@@ -1,13 +1,16 @@
-drop database atrigosAntigos_dataFirst
 
-create database atrigosAntigos_dataFirst
+create database artigosAntigos_dataFirst
 
-use atrigosAntigos_dataFirst
+use artigosAntigos_dataFirst
+
+
+
 
 create table dbo.Categoria(
 	IdCategoria int identity primary key not null,
 	NomeCategoria varchar(100) not null
 )
+
 
 create table dbo.Item(
 	IdItem int identity primary key not null,
@@ -20,13 +23,16 @@ create table dbo.Item(
 	
 )
 
-create table dbo.Venda(
-	IdVenda int identity primary key not null,
-	DataVenda date not null
-)
+
 
 create table dbo.Cliente(
 	IdCliente int identity primary key not null,
 	NomeCliente varchar(100) not null,
 	CpfCliente varchar(14) not null
+)
+
+create table dbo.Venda(
+	IdVenda int identity primary key not null,
+	DataVenda date not null,
+	IdCliente int FOREIGN kEY REFERENCES Cliente(IdCliente)
 )
