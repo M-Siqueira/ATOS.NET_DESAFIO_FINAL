@@ -19,7 +19,7 @@ namespace artigosAntigos.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             ModelBuilder modelBuilder1 = modelBuilder.ApplyConfigurationsFromAssembly();
-            //lincando com as Maps 
+                //lincando com as Maps 
 
         }
         
