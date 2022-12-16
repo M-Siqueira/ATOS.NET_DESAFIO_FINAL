@@ -4,9 +4,16 @@ namespace SeboFinalAtos.Controllers
 {
     public class CategoriumController : Controller
     {
-        public string SobreNos()
+        private readonly ILogger<CategoriumController> _logger;
+
+        public CategoriumController(ILogger<CategoriumController> logger)
         {
-            return "teste";
+            _logger = logger;
+        }
+
+        public IActionResult teste()
+        {
+            return View();
         }
     }
 }
