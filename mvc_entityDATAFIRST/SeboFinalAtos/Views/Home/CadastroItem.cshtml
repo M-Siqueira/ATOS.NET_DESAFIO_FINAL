@@ -3,4 +3,57 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>cadastro item .</p>
+<p>destinado ao cadastro das nossas amadas "Velharias".</p>
+
+<form>
+    <div class="form-group">
+        <label for="exampleFormControlFile1">Carregar a imagens do item aqui! </label></br>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+    </br>
+    <div class="form-group col-md-6">
+        <label for="inputName">Nome</label>
+        <input type="text" id="inputName" class="form-control" placeholder="nome do Item Aqui" required>
+    </div>
+    </br>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Categoria</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Livro</option>
+            <option>Disco de Vinil</option>
+            <option>Maquina de Escrever</option>
+            <option>Video Games Clássicos</option>
+            <option>Não Definido</option>
+        </select>
+    </div>
+   
+
+
+    </br>
+
+
+    <div class="col-md-2">
+    <label>data "aproximada" do objeto</label>
+    <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)">
+    </div>
+    </br>
+    <div>
+        <label>preço de Custo do Produto</label></br>
+        <input type="text" placeholder="Custo aqui" required>
+    </div>
+    </br>
+    <div>
+        <label>preço de Venda do Produto</label></br>
+        <input type="text" placeholder="preço final aqui" required>
+    </div>
+    </br>
+
+
+
+    </br>
+    <div class="col-md-8">
+        <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Cadastrar</button>
+        <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+        <button id="editar" name="Cancelar" class="btn btn-dark" type="Reset">Editar Item</button>
+    </div>
+</form>

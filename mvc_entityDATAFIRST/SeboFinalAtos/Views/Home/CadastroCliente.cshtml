@@ -3,4 +3,28 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>cadastro Cliente</p>
+<p>destinado ao cadastro de novos Clientes </p>
+
+<form>
+    
+    <div class="form-group col-md-6">
+        <label for="inputName">Nome</label>
+        <input type="text" id="inputName" class="form-control" placeholder="Marcelo Siqueira" required>
+    </div>
+    </br>
+
+   <div>
+       <label>CPF</label><br/>
+        <input type="text" name="cpf"
+               placeholder=": xxx.xxx.xxx-xx">
+
+   </div>
+    
+
+    </br>
+    <div class="col-md-8">
+        <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Cadastrar</button>
+        <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+        <button id="editar" name="Cancelar" class="btn btn-dark" type="Reset">Editar Item</button>
+    </div>
+</form>

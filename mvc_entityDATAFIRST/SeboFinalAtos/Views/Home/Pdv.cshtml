@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "PDV";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>area destinada a efetuar as vendas e emitir os cupons nao fiscais .</p>
+
+<form>
+    <div class="form-group col-md-6">
+        <label for="inputName">Codigo Venda</label>
+        <input type="text" id="inputName" class="form-control" placeholder="identificador da Venda" required>
+    </div>
+    </br>
+    <div class="form-group col-md-6">
+        <label for="inputName">Categoria do Item</label>
+        <input type="text" id="inputName" class="form-control" placeholder="identificador da Categoria Item" required>
+    </div>
+    </br>
+    <div class="form-group col-md-6">
+        <label for="inputName">Nome</label>
+        <input type="text" id="inputName" class="form-control" placeholder="nome do Item" required>
+    </div>
+    </br>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Cliente</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Marcelo Siqueira</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+   </br>
+    <div>
+        <label>preço de Venda do Produto</label></br>
+        <input type="text" placeholder="preço final aqui" required>
+    </div>
+    </br>
+
+
+
+    </br>
+    <div class="col-md-8">
+        <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Finalizar Venda</button>
+        <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Venda</button>
+        
+    </div>
+</form>
